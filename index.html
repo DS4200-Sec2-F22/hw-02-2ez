@@ -1,13 +1,135 @@
 <!DOCTYPE html>
-<html> 
+<html>
 
 <head>
-    <meta charset=utf-8/>
+    <title>hw-02</title>
+    <meta charset=utf-8 />
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 
 <body>
+    <div id="data-abstraction">
 
+        <div id="div1" class="info">
+            <h1>Dataset Types</h1>
+
+            <table>
+                <tr class="headerRow">
+                    <th>Data</th>
+                    <th>Link</th>
+                    <th>Dataset Type</th>
+                </tr>
+
+                <tr>
+                    <th>Airports</th>
+                </tr>
+
+                <tr>
+                    <th>Google-Web</th>
+                </tr>
+
+                <tr>
+                    <th>UFO</th>
+                </tr>
+
+            </table>
+        </div>
+
+        <div id='div2' class="info">
+            <h1>Data Types</h1>
+
+            <h2>Airports</h2>
+
+            <ul>
+                <li>Latitude : Position</li>
+                <li>Longitude : Position</li>
+                <li>Airport_Name : Categorical Attribute</li>
+            </ul>
+
+
+            <h2>Google-Web</h2>
+
+            <ul>
+                <li>Node : Item</li>
+            </ul>
+
+            <h2>UFO</h2>
+
+            <ul>
+                <li>Datetime: Ordinal Cyclic Attribute</li>
+                <li>City: Categorical Attribute</li>
+                <li>State: Categorical Attribute</li>
+                <li>Country: Categorical Attribute</li>
+                <li>Shape: Categorical Attribute</li>
+                <li>Duration: Sequential</li>
+                <!-- Either Quantitative or Ordinal -->
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="task-abstraction">
+        <h1>Task Abstraction</h1>
+
+        <div class="columns">
+
+            <div>
+                <img src="img/vis1.png">
+                <ul>
+                    <li>High: Produce (Record)</li>
+                    <li>Medium: Lookup (Target & Location known)</li>
+                    <li>Low: Summarize</li>
+                </ul>
+            </div>
+            <div>
+                <img src="img/vis2.png">
+                <li>High: Produce (Record)</li>
+                <li>Medium: Lookup (Target & Location known)</li>
+                <li>Low: Compare</li>
+            </div>
+        </div>
+    </div>
+
+    <div id="decoration">
+        
+        <svg width="400" height="100">
+            <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+        </svg>
+
+        <svg id="circle" width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        </svg>
+       
+        <svg width="400" height="100">
+            <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+        </svg>
+        
+        <svg id="circle" width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        </svg>
+
+        <svg width="400" height="100">
+            <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+        </svg>
+        
+    </div>
+
+    <h3 id="acknowledgments">Acknowledgments</h3>
+
+    <div> 
+        <ul>
+            <li>https://www.w3schools.com/css</li>
+            <li>https://www.w3schools.com/howto</li>
+            <li>https://www.w3schools.com/html</li>
+            <li>https://www.w3schools.com/graphics</li>
+            <li>stackoverflow.com</li>
+            <li>oreilly.com/library</li>
+            <li>learn-the-web.algonquindesign.ca</li>
+            <li>css-tricks.com</li>
+        </ul>
+    </div>
 
 </body>
 

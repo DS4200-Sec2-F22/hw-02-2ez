@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+.headerRow {
+  background-color: lightblue;
+}
+
+#task-abstraction {
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+#decoration {
+  justify-content: space-around;
+}
+
+#circle {
+  opacity: 50%;
+}
+
+#acknowledgments {
+  text-align: center;
+}
+
+
