@@ -15,7 +15,7 @@ The purpose of this assignment is to practice more advanced HTML and CSS, as wel
 
 1. You can find a reference for what your final webpage should look like in the "reference" folder of your cloned directory. 
 
-1. Create a GitHub Page for your repo and add the link to your GitHub Page above where you see `[insert your clickable hyperlink here]`. 
+1. Create a GitHub Page for your repo and add the link to your GitHub Page above where you see https://ds4200-sec2-f22.github.io/hw-02-2ez/. 
 
 1. Using the index.html file included in your repo and an *external* stylesheet (no styling should be done inline; it should all be done via external css), please do the following: 
 
