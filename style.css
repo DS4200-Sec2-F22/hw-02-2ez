@@ -40,8 +40,13 @@ table, th, td {
   stroke-width: 5px;
 }
 
+#rect {
+  fill: blue;
+  stroke:black; 
+  stroke-width: 10px;
+}
 #rect:hover {
-  opacity: 50%;
+  fill: orange;
 }
 
 #acknowledgments {
