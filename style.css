@@ -15,6 +15,7 @@ table, th, td {
 }
 
 #task-abstraction {
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -26,14 +27,25 @@ table, th, td {
 }
 
 #decoration {
-  justify-content: space-around;
+  padding-top: 100px;
+  display: flex;
 }
 
 #circle {
+  opacity: 50%;  
+}
+
+#circle:hover {
+  stroke: black;
+  stroke-width: 5px;
+}
+
+#rect:hover {
   opacity: 50%;
 }
 
 #acknowledgments {
+  padding-top: 100px;
   text-align: center;
 }
 
